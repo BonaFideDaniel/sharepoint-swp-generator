@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "swp-template-beta-client-side-solution",
+    "id": "9447267c-857d-4e1d-abdd-ed0d8c2ab6ca",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "swpTemplateBeta description"
+      },
+      "longDescription": {
+        "default": "swpTemplateBeta description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "swp-template-beta Feature",
+        "description": "The feature that activates elements of the swp-template-beta solution.",
+        "id": "5d4d6b44-5e61-43a9-bb6f-06911a2e14b5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/swp-template-beta.sppkg"
+  }
+}
